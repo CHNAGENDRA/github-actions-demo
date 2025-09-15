@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Welcome to Java Tech - CI CD with GitHub Actions";
+		return "Welcome to Java Tech - CI CD with GitHub Actions..!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(GithubCicdActionsApplication.class, args);
