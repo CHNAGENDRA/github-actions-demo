@@ -13,6 +13,11 @@ public class GithubCicdActionsApplication {
 	public String welcome(){
 		return "Welcome to Java Tech - CI CD with GitHub Actions..!";
 	}
+
+	@GetMapping("/greetings")
+	public String wishes(){
+		return "Welcome to Java Tech wishes..!";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(GithubCicdActionsApplication.class, args);
 	}
